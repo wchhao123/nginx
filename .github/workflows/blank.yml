@@ -27,5 +27,5 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/snowdreamtech/frps:latest docker://registry.cn-hangzhou.aliyuncs.com/izoov/frps:0.65.0
+         skopeo copy docker://docker.io/vllm/vllm-openai:v0.12.1 docker://registry.cn-hangzhou.aliyuncs.com/izoov/frps:0.65.1
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
